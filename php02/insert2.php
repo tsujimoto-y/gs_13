@@ -33,7 +33,7 @@ if($status==false){
   exit("QueryError:".$error[2]);
 }else{
   //５．index.phpへリダイレクト　この処理がないと画面が切り替わらない
-  header("Location:select.php");
+  header("Location:select2.php");
   exit;
 
 }
